@@ -6,7 +6,7 @@
 
 It builds the following ROMs:
 
-* relcan-tbh.z64
+* relcan-tbh.us.z64
 
 
 this doesnt contain the baserom for obvious reasons, just get a sm64 rom and call it baserom.(VERSION).z64

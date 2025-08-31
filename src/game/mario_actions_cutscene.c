@@ -1001,7 +1001,7 @@ s32 act_spawn_spin_airborne(struct MarioState *m) {
 
     play_mario_sound(m, SOUND_ACTION_TERRAIN_JUMP, SOUND_MARIO_YAHOO);
 
-  //  update_air_without_turn(m);
+    update_air_without_turn(m);
 
     switch (perform_air_step(m, 0)) {
         case AIR_STEP_LANDED:

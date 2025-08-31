@@ -13,7 +13,7 @@
 
 
 
-//#define USE_EXT_RAM
+#define USE_EXT_RAM
 #ifndef USE_EXT_RAM /* Default: Runs out of memory quickly when importing custom assets. */
 
 #define SEG_POOL_START   0x8005C000

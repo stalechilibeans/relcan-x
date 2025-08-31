@@ -23,7 +23,7 @@
 .if VERSION_SH == 1
 .ascii "SUPERMARIO64        "   /* Internal ROM name */
 .else
-.ascii "RELCAN X"   /* Internal ROM name */
+.ascii "RELCAN X            "   /* Internal ROM name */
 .endif
 .word  0x00000000               /* Unknown */
 .word  0x0000004E               /* Cartridge */
